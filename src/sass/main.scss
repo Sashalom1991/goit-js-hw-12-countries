@@ -1,7 +1,63 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+body {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+  line-height: 1.5;
+  color: #2a2a2a;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.search-form {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.form-control {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-title {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+  font-size: 32px;
+}
+
+.card- .card-text {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card-img-top {
+  display: flex;
+  justify-content: center;
+  width: 33%;
+}
+
+/* Стили для списка стран */
+.list-group-item {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+  font-size: 26px;
+  list-style: none;
+}
